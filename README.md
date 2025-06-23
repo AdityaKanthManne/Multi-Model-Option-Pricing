@@ -23,9 +23,12 @@ From strikes on key oil-exporting countries to OPEC decisions, global oil pricin
 
 multi-model-option-pricing/
 ├── data/
-│   └── uso_options_data.csv         # USO: United States Oil Fund (proxy for U.S. crude)
-│   └── qat_etf_data.csv             # QAT: Qatar ETF (risk exposure proxy)
-│   └── ksa_etf_data.csv             # KSA: Saudi Arabia ETF
+│   └── uso_options_data.csv         
+# USO: United States Oil Fund (proxy for U.S. crude)
+│   └── qat_etf_data.csv             
+# QAT: Qatar ETF (risk exposure proxy)
+│   └── ksa_etf_data.csv             
+# KSA: Saudi Arabia ETF
 ├── notebooks/
 │   └── Oil_Option_Pricing_Comparison.ipynb
 ├── src/
