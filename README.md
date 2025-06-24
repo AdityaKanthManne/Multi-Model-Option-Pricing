@@ -1,3 +1,4 @@
+
 # Multi-Model Option Pricing: Oil Price Volatility by Country
 
 This project applies three classical option pricing models — Black-Scholes, Binomial Tree, and Monte Carlo Simulation — to real-world oil markets. In light of increasing geopolitical instability (for example, Qatar airspace closures and Iran–US tensions), we examine how options on oil ETFs and futures reflect risk and volatility in oil prices by country.
@@ -58,6 +59,12 @@ matplotlib
 - `fetch_uso_options.py`: Downloads the latest USO options data from Yahoo Finance
 - `fetch_etf_options_qat_ksa.py`: Fetches options data for QAT and KSA ETFs
 
+## Notebooks
+- `Oil_Option_Pricing_Comparison.ipynb`: Runs Black-Scholes model on USO options and visualizes:
+  - Market vs. Model price differences
+  - Sensitivity to volatility and time to expiry
+  - Error analysis by strike and maturity
+
 ## Skills Demonstrated
 - Quantitative finance with energy market context
 - Modeling volatility shocks from geopolitical events
@@ -65,9 +72,9 @@ matplotlib
 - Real-world data collection and backtesting
 
 ## Coming Next
-- Black-Scholes pricing applied to USO ETF
-- Monte Carlo simulations for crisis-driven volatility
-- Comparison of implied versus realized volatility by country
+- Binomial Tree and Monte Carlo implementations
+- Regional option volatility comparison: QAT vs. USO vs. KSA
+- Interactive Streamlit dashboard for pricing inputs
 
 ## Author
 Aditya Kanth Manne
